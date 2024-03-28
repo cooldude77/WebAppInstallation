@@ -2,13 +2,17 @@
 
 namespace Controller;
 
+use View\WelcomeView;
+
 class WelcomeController extends BaseController
 {
 
 
     public function welcome(){
 
-        $this->viewProvider()->provideView(WelcomeView::class);
+        $view = $this->getViewProvider()->provideView(WelcomeView::class);
 
     }
+
+
 }
