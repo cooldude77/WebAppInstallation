@@ -69,3 +69,9 @@ cd /var/www/html/web-shop
 #DATABASE_URL="mysql://{your user}:{Your password}@127.0.0.1:3306/{your database}"
 
 composer install -vvv
+
+# run at console 
+php bin/console doctrine:migrations:migrate
+
+# check application at 
+http://youripordomain/web-shop/public
