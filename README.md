@@ -74,4 +74,5 @@ composer install -vvv
 php bin/console doctrine:migrations:migrate
 
 # check application at 
-http://youripordomain/web-shop/public
+{http : // youripordomain }/web-shop/public 
+use /admin to view the admin folder
