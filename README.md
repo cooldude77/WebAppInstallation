@@ -59,6 +59,9 @@ sudo setfacl -R -m u:"$HTTPDUSER":rwX -m u:$(whoami):rwX /var
 #GRANT ALL PRIVILEGES ON *.* TO '{your user}'@localhost IDENTIFIED BY '{Your password}';
 #FLUSH PRIVILEGES;
 
+# if js not compiling use nvm to download latest npm 
+
+
 # Your work starts from here ( will be replaced by installer in future)
 
 git clone https://github.com/cooldude77/myPersonalCRM.git /var/www/html/web-shop
